@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b51aaee993b10210c8f073718bba1059</sp_column>
+        <sp_page/>
+        <sp_widget display_value="インスタンス定義からのデータテーブル">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:31:59</sys_created_on>
+        <sys_id>e32a6e2993b10210c8f073718bba101c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_update_name>sp_instance_table_e32a6e2993b10210c8f073718bba101c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:31:59</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=e32a6e2993b10210c8f073718bba101c"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>e32a6e2993b10210c8f073718bba101c</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:31:59</sys_created_on>
+        <sys_id>632a6e2993b10210c8f073718bba101d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:31:59</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>e32a6e2993b10210c8f073718bba101c</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:31:59</sys_created_on>
+        <sys_id>632a222d93b10210c8f073718bba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:31:59</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</application>
+        <file_path/>
+        <instance_id>fd99dac71bae311452a243f4bd4bcb10</instance_id>
+        <instance_name>dev219603</instance_name>
+        <name>sp_instance_table_e32a6e2993b10210c8f073718bba101c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">b51aaee993b10210c8f073718bba1059</sp_column><sp_page/><sp_widget display_value="インスタンス定義からのデータテーブル">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:31:59</sys_created_on><sys_id>e32a6e2993b10210c8f073718bba101c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package><sys_policy/><sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope><sys_update_name>sp_instance_table_e32a6e2993b10210c8f073718bba101c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:31:59</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=e32a6e2993b10210c8f073718bba101c"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>e32a6e2993b10210c8f073718bba101c</documentkey><fieldname>short_description</fieldname><language>ja</language><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:31:59</sys_created_on><sys_id>632a6e2993b10210c8f073718bba101d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:31:59</sys_updated_on><tablename>sp_instance_table</tablename><value/></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>e32a6e2993b10210c8f073718bba101c</documentkey><fieldname>title</fieldname><language>ja</language><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:31:59</sys_created_on><sys_id>632a222d93b10210c8f073718bba100a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:31:59</sys_updated_on><tablename>sp_instance_table</tablename><value/></sys_translated_text></record_update>]]></payload>
+        <payload_hash>-1776926604</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1fa2c44d93f50210c8f073718bba1063</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:31:59</sys_created_on>
+        <sys_id>232a222d93b10210c8f073718bba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f198862ed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:31:59</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>e72a222d5eb102106c3b5c052156900b</update_guid>
+        <update_guid_history>e72a222d5eb102106c3b5c052156900b:-1776926604,a32a222d5cb1021048e995af42a9cf09:-259385456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">220de2ad93b10210c8f073718bba107a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:44:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>27e613c0434843c0a713424f09263590</sys_id>
+        <sys_metadata>e32a6e2993b10210c8f073718bba101c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_scope_delete display_value="">440719960b7c47da996a76724ac26e09</sys_scope_delete>
+        <sys_update_name>sp_instance_table_e32a6e2993b10210c8f073718bba101c</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_e32a6e2993b10210c8f073718bba101c">232a222d93b10210c8f073718bba100c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:44:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">70b6622993b10210c8f073718bba106b</sp_column>
+        <sp_widget display_value="ホームページ検索">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:17:28</sys_created_on>
+        <sys_id>b2d66aa593b10210c8f073718bba1070</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_update_name>sp_instance_ais_b2d66aa593b10210c8f073718bba1070</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:17:28</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=b2d66aa593b10210c8f073718bba1070"/>
+    <sys_translated_text action="DELETE">
+        <documentkey>b2d66aa593b10210c8f073718bba1070</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:17:28</sys_created_on>
+        <sys_id>b6d66aa593b10210c8f073718bba1071</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:17:28</sys_updated_on>
+        <tablename>sp_instance_ais</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="DELETE">
+        <documentkey>b2d66aa593b10210c8f073718bba1070</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:17:28</sys_created_on>
+        <sys_id>4fd66aa593b10210c8f073718bba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:17:28</sys_updated_on>
+        <tablename>sp_instance_ais</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</application>
+        <file_path/>
+        <instance_id>fd99dac71bae311452a243f4bd4bcb10</instance_id>
+        <instance_name>dev219603</instance_name>
+        <name>sp_instance_ais_b2d66aa593b10210c8f073718bba1070</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais"><sp_instance_ais action="INSERT_OR_UPDATE"><active>true</active><ai_search_source_filter/><class_name/><color>default</color><css/><disable_all_suggestions>false</disable_all_suggestions><glyph/><id/><order>1</order><placeholder/><roles/><search_application/><search_results_configuration/><short_description/><size>md</size><sp_column display_value="1">70b6622993b10210c8f073718bba106b</sp_column><sp_widget display_value="ホームページ検索">200fbd96cb20020000f8d856634c9ca1</sp_widget><spell_check_font_size>xl</spell_check_font_size><sys_class_name>sp_instance_ais</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:17:28</sys_created_on><sys_id>b2d66aa593b10210c8f073718bba1070</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package><sys_policy/><sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope><sys_update_name>sp_instance_ais_b2d66aa593b10210c8f073718bba1070</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:17:28</sys_updated_on><title/><url/><widget_parameters/></sp_instance_ais><sys_translated_text action="delete_multiple" query="documentkey=b2d66aa593b10210c8f073718bba1070"/><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b2d66aa593b10210c8f073718bba1070</documentkey><fieldname>short_description</fieldname><language>ja</language><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:17:28</sys_created_on><sys_id>b6d66aa593b10210c8f073718bba1071</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:17:28</sys_updated_on><tablename>sp_instance_ais</tablename><value/></sys_translated_text><sys_translated_text action="INSERT_OR_UPDATE"><documentkey>b2d66aa593b10210c8f073718bba1070</documentkey><fieldname>title</fieldname><language>ja</language><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 08:17:28</sys_created_on><sys_id>4fd66aa593b10210c8f073718bba1073</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 08:17:28</sys_updated_on><tablename>sp_instance_ais</tablename><value/></sys_translated_text></record_update>]]></payload>
+        <payload_hash>-647357554</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1fa2c44d93f50210c8f073718bba1063</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:17:28</sys_created_on>
+        <sys_id>87d6262993b10210c8f073718bba102e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f197b18450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:17:28</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>4fd6262939b10210af62a239f29b1a2d</update_guid>
+        <update_guid_history>4fd6262939b10210af62a239f29b1a2d:-647357554,8fd66aa5e4b1021025649aa1e8a94072:739499422</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">edf6a62993b10210c8f073718bba101e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:17:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>d7c99d98c0804abcb7d6368859a73684</sys_id>
+        <sys_metadata>b2d66aa593b10210c8f073718bba1070</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_scope_delete display_value="">440719960b7c47da996a76724ac26e09</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_b2d66aa593b10210c8f073718bba1070</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_b2d66aa593b10210c8f073718bba1070">87d6262993b10210c8f073718bba102e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:17:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

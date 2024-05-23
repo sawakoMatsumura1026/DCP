@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>sample</category>
+        <client_script><![CDATA[// function() {
+  // widget controller
+//   var c = this;
+// }]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.navbar {
+  transition: 250ms opacity ease-in-out;
+  -webkit-transition: 250ms opacity ease-in-out;
+  border: 0;
+  border-bottom: 4px solid $sp-navbar-divider-color;
+}
+
+.navbar-fade {
+  opacity: 0.4;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+header[role="banner"],
+.nav &gt; li &gt; a {
+  max-height: 60px;
+}
+
+.nav &gt; li &gt; a span.fa{
+  margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 992px){
+  .nav &gt; li &gt; a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.navbar-brand {
+  max-height: 60px;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand img, .navbar-brand span {
+  margin-left: $sp-logo-margin-x;
+  margin-right: $sp-logo-margin-x;
+  margin-top: $sp-logo-margin-y;
+  margin-bottom: $sp-logo-margin-y;
+  display: block;
+  max-height: $sp-logo-max-height;
+  max-width: $sp-logo-max-width;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+@media screen and (max-width: 992px){
+  .navbar-brand img, .navbar-brand span {
+    max-width: $sp-logo-mobile-max-width;
+  }
+}
+
+.breadcrumb-container {
+  background-color: $panel-bg;
+}
+
+/* for mobile app */
+.navbar-inverse.is-native {
+  background-color: #405060;
+}
+
+nav {
+  margin-bottom: 0px;
+  border-radius: 0px;
+
+ .toggle-dropdown {
+    height: 60px;
+  }
+
+}
+
+.navbar-right {
+  padding-right: 0px;
+  padding-left: 7px;
+}
+
+.navbar-nav {
+margin: 0px;
+}
+
+// PRB711244: Dropdown menu is scrollable when too many items
+.scrollable-dropdown {
+  max-height: 80vh;
+  overflow: auto;
+  height: auto;
+}
+
+.is-native {
+ .scrollable-dropdown {
+  max-height: 100vh;
+  overflow: scroll;
+  height: auto;
+	}
+}
+
+
+/* PRB923910: Fix for Service Portal - Header Poorly Aligned in Safari */
+@media screen and (min-width: 993px) {
+  .navbar-right {
+    display: flex !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+  }
+  .navbar-nav &gt; li {
+    float: none;
+  }
+  .navbar-nav &gt; li &gt; a {
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of Sample Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
+data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
+data.login_page = $sp.getValue('login_page');
+data.profileBtnMsg = gs.getMessage("User options");
+data.toggleMsg = gs.getMessage("Toggle navigation");
+var menu = $sp.getValue("sp_rectangle_menu");
+data.menu = $sp.getWidgetFromInstance(menu);
+data.langSelector = pm.isActive('com.glide.i18n')? $sp.getWidget('sp-lang-selector') : "";
+if (data.menu && data.menu.data) {
+	data.menu.data.replace = true;
+	// Hide login if menu already has link to login
+	data.hasLogin = false;
+	if (data.menu.data.menu.items) {
+		data.hasMenuItems = data.menu.data.menu.items.length > 0;
+		for(var i in data.menu.data.menu.items) {
+			var item = data.menu.data.menu.items[i];
+			if (item.type == 'page' && item.sp_page == data.login_page)
+				data.hasLogin = true;
+		}
+	}
+}
+
+data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 07:32:28</sys_created_on>
+        <sys_id>76e2cf7a93710210c8f073718bba10e0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Copy of Sample Footer</sys_name>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_update_name>sp_header_footer_76e2cf7a93710210c8f073718bba10e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:51:19</sys_updated_on>
+        <template><![CDATA[<div>
+  <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
+       role="navigation" aria-label="${Primary}">
+    <div ng-show="::!isViewNative" class="navbar-header">
+<a class="navbar-brand" ng-if="::!portal.logo" href="?id={{::portal.homepage_dv}}"><span ng-bind="portal.title"></span></a>
+      <a class="navbar-brand navbar-brand-logo" ng-if="::portal.logo" ng-href="?id={{::portal.homepage_dv}}" ng-click="collapse()" aria-label="{{::logoText}}">
+        <img ng-src="{{::portal.logo}}" title="{{::portal.title}}" alt="{{::portal.title}} ${Logo}" />
+      </a>
+      <button ng-if="data.hasMenuItems || (!user.logged_in && page.id != portal.login_page_dv && !data.hasLogin) || user.logged_in" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-placement="bottom" data-toggle-second="tooltip" data-original-title="{{::data.toggleMsg}}" data-target="#sp-nav-bar" aria-haspopup="menu">
+        <span class="sr-only">${Toggle navigation}</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div sp-navbar-toggle="" class="collapse navbar-right" id="sp-nav-bar">
+      <!-- Include The Menu -->
+      <sp-widget widget="::data.menu"></sp-widget>
+	  <!-- Language Selector Menu -->
+      <sp-widget widget="::data.langSelector"></sp-widget>
+      <ul ng-if="(!user.logged_in && page.id != portal.login_page_dv && !data.hasLogin)" class="nav navbar-nav" role="presentation">
+        <li role="presentation"><a href ng-click="::openLogin()">${Login}</a></li>
+      </ul>
+      <ul ng-if="user.logged_in" class="nav navbar-nav" role="menubar">
+        <!-- chat, avatar, and logout -->
+        <li ng-if="::(data.connect_support_queue_id && !isAgentChatConfigured)" role="presentation"><a href ng-click="openPopUp()" role="menuitem">${Live Chat}</a></li>
+        <li ng-if="showAvatar" class="hidden-xs hidden-sm dropdown" role="presentation">
+          <a href class="toggle-dropdown" data-toggle="dropdown" aria-expanded="false" aria-label="{{::data.profileBtnMsg}}: {{::user.name}}" id="profile-dropdown"  role="menuitem" aria-haspopup="true">
+            <span class="navbar-avatar" aria-hidden="true"><sn-avatar class="avatar-small-medium" primary="avatarProfile" /></span>
+            <span class="visible-lg-inline">{{::user.name}}</span>
+          </a>
+          <ul class="dropdown-menu" role="menu" aria-label="{{::data.profileBtnMsg}}">
+            <li role="presentation"><a tabindex="-1" ng-href="?id=user_profile&sys_id={{::user.sys_id}}" role="menuitem">${Profile}</a></li>
+            <li ng-if="::!(isViewNative || isViewNativeTablet)" role="presentation"><a tabindex="-1" href="{{::portal.logoutUrl}}" role="menuitem">${Logout}</a></li>
+          </ul>
+        </li>
+        <li ng-if="showSMAvatar" class="visible-xs-block visible-sm-block" role="presentation"><a role="menuitem" ng-href="?id=user_profile&sys_id={{::user.sys_id}}" ng-click="collapse()">
+          <span class="navbar-avatar"><sn-avatar class="avatar-small-medium" primary="avatarProfile" /></span>{{::user.name}}</a>
+        </li>
+        <li ng-if="::!(isViewNative || isViewNativeTablet)" class="visible-xs-block visible-sm-block" role="presentation"><a role="menuitem" ng-href="{{::portal.logoutUrl}}" ng-click="collapse()">${Logout}</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

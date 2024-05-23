@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="first_payment_due_date" label="初回支払予定日" language="ja" table="x_932441_cerci_procurement_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>first_payment_due_date</element>
+            <help/>
+            <hint/>
+            <label>初回支払予定日</label>
+            <language>ja</language>
+            <name>x_932441_cerci_procurement_application</name>
+            <plural>初回支払予定日s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 07:21:34</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>初回支払予定日</sys_name>
+            <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+            <sys_update_name>sys_documentation_x_932441_cerci_procurement_application_first_payment_due_date_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 07:21:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

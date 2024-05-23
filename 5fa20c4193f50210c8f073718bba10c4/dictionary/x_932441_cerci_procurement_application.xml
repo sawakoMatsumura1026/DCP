@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ec33048d93f50210c8f073718bba1082" extends="task" label="procurement_application" max_length="40" name="x_932441_cerci_procurement_application" type="collection">
+        <element label="受付日" max_length="40" name="accept_date" type="glide_date"/>
+        <element label="申請者コメント" max_length="40" name="applicant_comment" type="string_full_utf8"/>
+        <element label="申請日" max_length="40" name="application_date" type="glide_date"/>
+        <element label="承認者コメント" max_length="40" name="approver_comment" type="string_full_utf8"/>
+        <element label="承認/却下日" max_length="40" name="approve_date" type="glide_date"/>
+        <element label="資本金" max_length="38" name="capital" type="price"/>
+        <element label="重複チェック" max_length="40" name="check" type="boolean"/>
+        <element label="市区町村" max_length="40" name="city" type="string"/>
+        <element label="会社名または個人名" max_length="40" name="company_name" type="string"/>
+        <element label="法人または個人の種別" max_length="40" name="company_type" type="string"/>
+        <element label="国税庁法人番号" max_length="13" name="corporate_number" type="string"/>
+        <element label="国名" max_length="40" name="country" type="string"/>
+        <element label="支払通貨" max_length="32" name="currency_code" type="string"/>
+        <element label="サプライヤー営業担当者の電子メールアドレス" max_length="40" name="email_address_of_supplier_sales_represen" type="string"/>
+        <element label="法人コード" max_length="40" name="entity_code" type="string_full_utf8"/>
+        <element label="初回支払予定日" max_length="40" name="first_payment_due_date" type="glide_date"/>
+        <element label="適格請求書発行事業者登録番号" max_length="14" name="invoice_registration_number" type="string"/>
+        <element label="メモ" max_length="40" name="memo" type="string_full_utf8"/>
+        <element label="電話番号" max_length="40" name="phone_number" type="string"/>
+        <element label="調達先コード" max_length="40" name="procurement_code" type="string"/>
+        <element label="調達先区分" max_length="40" name="procurement_division" type="string"/>
+        <element label="支払用途" max_length="40" name="purpase_of_payment" type="string"/>
+        <element label="送金先" max_length="40" name="remittance_destination" type="string"/>
+        <element label="担当者" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="責任者" max_length="32" name="responsible_person_s_name" reference="sys_user" type="reference"/>
+        <element label="個人名の場合の所属" max_length="40" name="select_company_or_individual" type="string"/>
+        <element label="都道府県" max_length="40" name="state_province" type="string"/>
+        <element choice="1" label="ステータス" max_length="4000" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="番地" max_length="40" name="street" type="string"/>
+        <element label="下請法チェック" max_length="40" name="subcontractor_act_check" type="boolean"/>
+        <element label="下請法適用会社の確定情報" max_length="1000" name="subcontract_act_info" type="string_full_utf8"/>
+        <element label="記入者名" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <element label="サプライヤーの営業担当名" max_length="40" name="supplier_sales_representative_name" type="string"/>
+        <element label="ウェブサイト" max_length="40" name="supplier_website" type="string"/>
+        <element label="郵便番号" max_length="40" name="zip" type="string"/>
+    </element>
+</database>

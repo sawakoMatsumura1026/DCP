@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="subcontractor_act_check" label="下請法チェック" language="ja" table="x_932441_cerci_procurement_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>subcontractor_act_check</element>
+            <help/>
+            <hint/>
+            <label>下請法チェック</label>
+            <language>ja</language>
+            <name>x_932441_cerci_procurement_application</name>
+            <plural>下請法チェックs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 07:21:36</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>下請法チェック</sys_name>
+            <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+            <sys_update_name>sys_documentation_x_932441_cerci_procurement_application_subcontractor_act_check_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 07:21:36</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

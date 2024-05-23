@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b38999d993310210c8f073718bba1084" extends="core_company" label="調達先マスタ" max_length="40" name="x_932441_cerci_procurement_mst" type="collection">
+        <element label="資本金" max_length="20" name="capital" type="price"/>
+        <element label="会社名は個人名" max_length="40" name="company_name" type="string"/>
+        <element label="国税庁法人番号" max_length="13" name="corporate_number" type="string"/>
+        <element label="支払通貨" max_length="40" name="currency_code" type="string"/>
+        <element label="所属部署" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="サプライヤー営業担当者の電子メールアドレス" max_length="40" name="email_address_of_supplier_sales_represen" type="string"/>
+        <element label="法人コード" max_length="40" name="entity_code" type="string_full_utf8"/>
+        <element label="法人または個人の種別" max_length="40" name="entity_type" type="string"/>
+        <element label="適格請求書発行事業者登録番号" max_length="14" name="invoice_registration_number" type="string"/>
+        <element label="個人名の場合の所属" max_length="40" name="select_company_or_individual" type="string"/>
+        <element label="ステータス" max_length="40" name="status" type="string"/>
+        <element label="記入者名" max_length="32" name="submitted_by" reference="sys_user" type="reference"/>
+        <element label="サプライヤーの営業担当名" max_length="40" name="supplier_sales_representative_name" type="string"/>
+        <element label="ウェブサイト" max_length="40" name="supplier_website" type="string"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="submitted_by"/>
+        </index>
+    </element>
+</database>

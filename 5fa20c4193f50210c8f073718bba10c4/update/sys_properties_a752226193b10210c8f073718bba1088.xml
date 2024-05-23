@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.g1_2_1.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 07:57:51</sys_created_on>
+        <sys_id>a752226193b10210c8f073718bba1088</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.g1_2_1.enable_rem_conversion</sys_name>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_update_name>sys_properties_a752226193b10210c8f073718bba1088</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 07:57:51</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a752226193b10210c8f073718bba1088"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey name="glide.service_portal.resize_text.g1_2_1.enable_rem_conversion" tablename="sys_properties">a752226193b10210c8f073718bba1088</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 07:57:51</sys_created_on>
+        <sys_id>6752226193b10210c8f073718bba1089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 07:57:51</sys_updated_on>
+        <tablename>sys_properties</tablename>
+        <value>If true, portal css would be in rem units</value>
+    </sys_translated_text>
+</record_update>

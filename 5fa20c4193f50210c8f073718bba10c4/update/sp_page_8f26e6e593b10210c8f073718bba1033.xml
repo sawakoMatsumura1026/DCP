@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>g1_2_1</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:14:59</sys_created_on>
+        <sys_id>8f26e6e593b10210c8f073718bba1033</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>g1_2_1</sys_name>
+        <sys_package display_value="CERCI" source="x_932441_cerci">5fa20c4193f50210c8f073718bba10c4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CERCI">5fa20c4193f50210c8f073718bba10c4</sys_scope>
+        <sys_update_name>sp_page_8f26e6e593b10210c8f073718bba1033</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:14:59</sys_updated_on>
+        <title>フロントオフィスサービスポータル</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f26e6e593b10210c8f073718bba1033"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>8f26e6e593b10210c8f073718bba1033</documentkey>
+        <fieldname>dynamic_title_structure</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:14:59</sys_created_on>
+        <sys_id>aa46aea593b10210c8f073718bba107f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:14:59</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>8f26e6e593b10210c8f073718bba1033</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:14:59</sys_created_on>
+        <sys_id>ea46aea593b10210c8f073718bba107a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:14:59</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>8f26e6e593b10210c8f073718bba1033</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 08:14:59</sys_created_on>
+        <sys_id>e246aea593b10210c8f073718bba107d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 08:14:59</sys_updated_on>
+        <tablename>sp_page</tablename>
+        <value>フロントオフィスサービスポータル</value>
+    </sys_translated_text>
+</record_update>
